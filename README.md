@@ -1,3 +1,18 @@
+#Exemplo de Autenticação de Usuário e Gravamento de Sessão com NextJs utilizando [`next-iron-session`]
+
+## Example Next.js application using [`next-iron-session`](https://github.com/vvo/next-iron-session)
+
+This example creates an authentication system that uses a **signed and encrypted cookie to store session data**. It relies on [`next-iron-session`](https://github.com/vvo/next-iron-session).
+
+It uses current best practices for authentication in the Next.js ecosystem.
+
+- [Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended) (SG)
+- Logged in status synchronized between browser windows/tabs using **`withUser`** hook and [`swr`](https://swr.now.sh/) module
+- Layout based on the user's logged-in/out status
+- Session data is signed and encrypted in a cookie
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
